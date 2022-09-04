@@ -1,4 +1,4 @@
-baseURL = "alicecsq.netlify.app/"
+baseURL = "https://alicecsq.netlify.app/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Siqi Chen"
@@ -29,11 +29,12 @@ enableEmoji = true
     
 [params]
   orgName = "Siqi Chen"
-  orgLocal = ""
+  orgLocal = "BCMB, TimpLab, JHSoM"
   description = "Aspiring biology/bioinformatics student"
   favicon = "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
-  mainSections = ["blog", "project", "talk"]
+  #mainSections = ["blog", "project", "talk"]
+  mainSections = ["blog"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
